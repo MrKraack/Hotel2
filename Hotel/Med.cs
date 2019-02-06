@@ -8,5 +8,8 @@ namespace Hotel
 {
     class Med
     {
+        bool børneseng;
+        bool fjernsyn;
+        bool friSæbe;
     }
 }
