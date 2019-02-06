@@ -28,6 +28,8 @@ namespace Hotel
             high.AntalSovePladser = 2;
             rooms.Add(high);
 
+            
+
             return rooms;
         }
     }

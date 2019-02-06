@@ -22,6 +22,8 @@ namespace Hotel
         public OrderView()
         {
             InitializeComponent();
+            
+            
         }
     }
 }
