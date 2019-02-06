@@ -14,6 +14,7 @@ namespace Hotel
 
             Room low = new Room("Low Budget Room");
             low.Pris = 100;
+            
             rooms.Add(low);
 
             Room med = new Room("Medium Budget Room");
