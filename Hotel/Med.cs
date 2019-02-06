@@ -12,6 +12,10 @@ namespace Hotel
         bool television;
         bool freeSoap;
         private string Name;
+        public override string ToString()
+        {
+            return Name;
+        }
 
         public Med(string name)
         {

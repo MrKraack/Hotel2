@@ -12,6 +12,10 @@ namespace Hotel
         bool bunkBeds;
         bool servesBreakfast;
         private string Name;
+        public override string ToString()
+        {
+            return Name;
+        }
 
 
         public Low(string name)
