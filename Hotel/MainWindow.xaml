@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hotel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Foreground="{x:Null}" Visibility="Visible" AllowsTransparency="True" WindowStyle="None" Background="#FF3E3333">
     <Grid>
-        
+        <Frame x:Name="MainFrame"/>
+        <ListView x:Name="HotelList" HorizontalAlignment="Left" Height="300" Width="200" Margin="100,0,00,0" VerticalAlignment="Center"  BorderBrush="{x:Null}" Background="White" Foreground="{x:Null}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Order" HorizontalAlignment="Right" Margin="0,0,50,50" VerticalAlignment="Bottom" Width="74"/>
+        <Label Content="Hotels"  HorizontalAlignment="Left" Margin="100,50,0,0" VerticalAlignment="Top" Foreground="White" Width="200" HorizontalContentAlignment="Center"/>
+
+
     </Grid>
 </Window>
