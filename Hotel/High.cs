@@ -15,6 +15,11 @@ namespace Hotel
         bool holograms;
         private string Name;
 
+        public override string ToString()
+        {
+            return Name;
+        }
+
         public High(string name)
         {
             spa = true;
