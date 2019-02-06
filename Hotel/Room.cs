@@ -9,8 +9,9 @@ namespace Hotel
     class Room
     {
         public int Pris { get; set; }
-        
-        public Room(string _navn)
+        public int AntalSovePladser { get; set; }
+
+        public Room()
         {
 
         }
