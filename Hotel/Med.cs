@@ -11,12 +11,14 @@ namespace Hotel
         bool childrensBed;
         bool television;
         bool freeSoap;
+        private string Name;
 
-        public Med()
+        public Med(string name)
         {
             childrensBed = true;
             television = true;
             freeSoap = true;
+            this.Name = name;
         }
     }
     

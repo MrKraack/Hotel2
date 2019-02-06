@@ -12,15 +12,15 @@ namespace Hotel
         {
             List<Room> rooms = new List<Room>();
 
-            Room low = new Room("Low Budget Room");
+            Room low = new Low("Low budget room");
             low.Pris = 100;
             rooms.Add(low);
 
-            Room med = new Room("Medium Budget Room");
+            Room med = new Med("Medium budget room");
             med.Pris = 10000;
             rooms.Add(med);
 
-            Room high = new Room("High Budget Room");
+            Room high = new High("High budget room");
             high.Pris = 100000;
             rooms.Add(high);
 

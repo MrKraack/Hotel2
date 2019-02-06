@@ -13,14 +13,16 @@ namespace Hotel
         bool perfumeSamples;
         bool robes;
         bool holograms;
+        private string Name;
 
-        public High()
+        public High(string name)
         {
             spa = true;
             roomService = true;
             perfumeSamples = true;
             robes = true;
             holograms = true;
+            this.Name = name;
         }
 
 
