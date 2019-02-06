@@ -10,5 +10,6 @@ namespace Hotel
     {
         public int Pris { get; set; }
         public int AntalSovePladser { get; set; }
+
     }
 }
