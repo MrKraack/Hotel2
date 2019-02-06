@@ -10,7 +10,8 @@ namespace Hotel
     {
         public int Pris { get; set; }
         
-        public Room(string _navn)
+        
+        public Room()
         {
 
         }
