@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hotel
 {
-    class High
+    class High : Room
     {
         bool spa;
         bool roomService;
