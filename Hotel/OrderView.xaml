@@ -11,7 +11,7 @@
         <ListView x:Name="HotelList" HorizontalAlignment="Left" Height="300" Width="400" Margin="100,0,00,0" VerticalAlignment="Center"  BorderBrush="{x:Null}" Background="{x:Null}" Foreground="{x:Null}">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Name" Width="100" DisplayMemberBinding="{Binding Source=Rooms}" />
+                    <GridViewColumn Header="Name" Width="100" DisplayMemberBinding="{x:Static }" />
                     <GridViewColumn Header="Age" Width="100" DisplayMemberBinding="{Binding Price}" />
                     <GridViewColumn Header="Rooms" Width="100" DisplayMemberBinding="{Binding }" />
                     <GridViewColumn Header="Available" Width="100" DisplayMemberBinding="{Binding IsAvailable }" />
