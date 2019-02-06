@@ -15,6 +15,7 @@ namespace Hotel
 
         public Med(string name)
         {
+            
             childrensBed = true;
             television = true;
             freeSoap = true;
