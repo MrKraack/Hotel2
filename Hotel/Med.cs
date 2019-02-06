@@ -14,6 +14,7 @@ namespace Hotel
 
         public Med()
         {
+            
             childrensBed = true;
             television = true;
             freeSoap = true;
