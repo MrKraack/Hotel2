@@ -6,12 +6,23 @@ using System.Threading.Tasks;
 
 namespace Hotel
 {
-    class High
+    class High : Room
     {
         bool spa;
         bool roomService;
         bool perfumeSamples;
-        bool morgenKåbe;
+        bool robes;
         bool holograms;
+
+        public High()
+        {
+            spa = true;
+            roomService = true;
+            perfumeSamples = true;
+            robes = true;
+            holograms = true;
+        }
+
+
     }
 }

@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace Hotel
 {
-    class Low
+    class Low : Room
     {
-        bool fællesToilet;
-        bool køjeseng;
-        bool morgenmad;
+        bool sharedToilet;
+        bool bunkBeds;
+        bool servesBreakfast;
+
+        public Low()
+        {
+            sharedToilet = true;
+            bunkBeds = true;
+            servesBreakfast = false;
+        }
     }
 }
