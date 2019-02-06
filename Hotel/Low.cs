@@ -8,8 +8,15 @@ namespace Hotel
 {
     class Low
     {
-        bool fællesToilet;
-        bool køjeseng;
-        bool morgenmad;
+        bool sharedToilet;
+        bool bunkBeds;
+        bool servesBreakfast;
+
+        public Low()
+        {
+            sharedToilet = true;
+            bunkBeds = true;
+            servesBreakfast = false;
+        }
     }
 }

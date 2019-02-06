@@ -8,8 +8,16 @@ namespace Hotel
 {
     class Med
     {
-        bool børneseng;
-        bool fjernsyn;
-        bool friSæbe;
+        bool childrensBed;
+        bool television;
+        bool freeSoap;
+
+        public Med()
+        {
+            childrensBed = true;
+            television = true;
+            freeSoap = true;
+        }
     }
+    
 }
