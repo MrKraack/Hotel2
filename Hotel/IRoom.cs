@@ -8,5 +8,6 @@ namespace Hotel
 {
     interface IRoom
     {
+         int MyProperty { get; set; }
     }
 }
