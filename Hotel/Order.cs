@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Hotel
 {
+
     class Order
     {
+
     }
 }
