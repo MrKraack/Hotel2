@@ -22,8 +22,7 @@ namespace Hotel
         public OrderView()
         {
             InitializeComponent();
-            
-            
+            List<Room> rooms = Order.RoomList();
         }
     }
 }
