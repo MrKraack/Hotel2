@@ -8,5 +8,11 @@ namespace Hotel
 {
     class Room
     {
+        int antalRum;
+        int antalSovePladser;
+        int værelsesnummer;
+        bool havUdsigt;
+        int pris;
+        bool erUdlejet;
     }
 }

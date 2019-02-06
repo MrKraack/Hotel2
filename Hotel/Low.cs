@@ -8,5 +8,8 @@ namespace Hotel
 {
     class Low
     {
+        bool fællesToilet;
+        bool køjeseng;
+        bool morgenmad;
     }
 }

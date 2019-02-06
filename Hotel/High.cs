@@ -8,5 +8,10 @@ namespace Hotel
 {
     class High
     {
+        bool spa;
+        bool roomService;
+        bool perfumeSamples;
+        bool morgenKåbe;
+        bool holograms;
     }
 }
